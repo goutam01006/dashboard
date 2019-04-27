@@ -1,0 +1,99 @@
+// Overflow Hidden
+.o-hidden {
+  overflow: hidden !important;
+}
+.table-img-disply{
+  width:3rem;
+  display: inline-block;
+  vertical-align: middle;
+}
+.table-text{
+  display: inline-block;
+  vertical-align: middle;
+}
+.team-container{
+  padding: 5px;
+  margin-right: 10px;
+  display: inline-block;
+  width: auto;
+  & img {
+    height: 1.5rem;
+  }
+}
+.add-user{
+  float: right
+}
+.input-width{
+  width:90% !important;
+}
+.chosen-container{
+  width:90% !important;
+  min-height: 42px !important;
+  background-color: #f8f9fc!important;
+  display: block;
+  width: 100%;
+  height: calc(1.5em + .75rem + 2px);
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #6e707e;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #d1d3e2;
+  border-radius: .35rem;
+  -webkit-transition: border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+  transition: border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+  & .chosen-choices{
+        border: 0px solid #aaa !important;
+        background-color: #f8f9fc!important;
+  }
+}
+.usr-table-header{
+  background-color: #007bff;
+  color: #ffffff;
+}
+.card-header {
+  background-image: linear-gradient(to right, rgb(254, 147, 101), rgb(254, 183, 152));
+  & .text-primary-white{
+    color:#ffffff;
+  }
+}
+.add-user {
+  & .team-container{
+    background-color: #f86c6b;
+    border: 0px;
+    padding-right:10px;
+    & a{
+      color: #ffffff
+    }
+  }
+}
+
+.team-1 {
+    background-color: #20a8d8; 
+    color: #fff;
+    padding-right: 10px;
+};
+.team-2 {
+  background-color: #63c2de ;
+  color: #fff;
+  padding-right: 10px;
+};
+.team-3 {
+    background-color: #ffc107;
+    color: #fff;
+    padding-right: 10px;
+    };
+.team-4 {
+  background-color: #f86c6b;
+  color: #fff;
+    padding-right: 10px;
+  };
+.team-5 {
+  background-color: #4dbd74;
+  color: #fff;
+    padding-right: 10px;
+};
